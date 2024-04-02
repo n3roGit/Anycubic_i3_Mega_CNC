@@ -1671,7 +1671,7 @@ void Endstops::update() {
 
     #endif // XYZ
   }
-  bool isAdditionalZEndstopTriggered() {
-  return READ(ADDITIONAL_Z_ENDSTOP_PIN) != Z_MIN_ENDSTOP_INVERTING;
+  //bool isAdditionalZEndstopTriggered() {
+  //return READ(ADDITIONAL_Z_ENDSTOP_PIN) != Z_MIN_ENDSTOP_INVERTING;
 }
 #endif

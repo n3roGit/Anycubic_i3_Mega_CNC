@@ -1138,7 +1138,7 @@ inline void tmc_standby_setup() {
 void setup() {
   #ifdef FASTIO_INIT
     FASTIO_INIT();
-    pinMode(ADDITIONAL_Z_ENDSTOP_PIN, INPUT_PULLUP); // Setzt den Pin als Eingang mit Pullup-Widerstand
+    //pinMode(ADDITIONAL_Z_ENDSTOP_PIN, INPUT_PULLUP); // Setzt den Pin als Eingang mit Pullup-Widerstand
   #endif
 
   #ifdef BOARD_PREINIT
