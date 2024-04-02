@@ -9,7 +9,7 @@
 ================================================================================
 
 Greetings! Thank you for choosing Marlin 2 as your 3D printer firmware.
-
+c:\Users\christoph.bubeck\Documents\GitHub\Anycubic_i3_Mega_CNC\Marlin-2.1.2.2\Marlin\src\gcode\gcode.cpp c:\Users\christoph.bubeck\Documents\GitHub\Anycubic_i3_Mega_CNC\Marlin-2.1.2.2\Marlin\src\gcode\gcode.h
 To configure Marlin you must edit Configuration.h and Configuration_adv.h
 located in the root 'Marlin' folder. Check our Configurations repository to
 see if there's a more suitable starting-point for your specific hardware.
