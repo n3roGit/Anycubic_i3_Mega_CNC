@@ -115,7 +115,7 @@
 #define BAUDRATE 250000
 
 //#define BAUD_RATE_GCODE     // Enable G-code M575 to set the baud rate
-c:\Users\christoph.bubeck\Downloads\Marlin-2.1.2.2\Marlin-2.1.2.2\Marlin\src\gcode\gcode.cpp
+C:\Users\christoph.bubeck\Documents\GitHub\Anycubic_i3_Mega_CNC\Marlin-2.1.2.2\Marlin\src\gcode\gcode.cpp
 /**
  * Select a secondary serial port on the board to use for communication with the host.
  * Currently Ethernet (-2) is only supported on Teensy 4.1 boards.
@@ -139,7 +139,7 @@ c:\Users\christoph.bubeck\Downloads\Marlin-2.1.2.2\Marlin-2.1.2.2\Marlin\src\gco
  * Select your version of the Trigorilla (RAMPS1.4) board here.
  *
  * 0 = Default Trigorilla
- * 1 = Newer Trigorilla v1.1 (first seen late 2018)c:\Users\christoph.bubeck\Downloads\Marlin-2.1.2.2\Marlin-2.1.2.2\Marlin\src\pins\ramps\pins_TRIGORILLA_14_CNC.h
+ * 1 = Newer Trigorilla v1.1 (first seen late 2018)C:\Users\christoph.bubeck\Documents\GitHub\Anycubic_i3_Mega_CNC\Marlin-2.1.2.2\Marlin\src\pins\ramps\pins_TRIGORILLA_14_CNC.h
  *
  * The only major difference is a slight change on the servo pin mapping.
  * This setting only is relevant if you want to use BLtouch or similar
@@ -150,10 +150,10 @@ c:\Users\christoph.bubeck\Downloads\Marlin-2.1.2.2\Marlin-2.1.2.2\Marlin\src\gco
 #define TRIGORILLA_VERSION 0
 
 // Choose the name from boards.h that matches your setup
-#if TRIGORILLA_VERSION == 1c:\Users\christoph.bubeck\Downloads\Marlin-2.1.2.2\Marlin-2.1.2.2\Marlin\src\core\boards.h
+#if TRIGORILLA_VERSION == 1C:\Users\christoph.bubeck\Documents\GitHub\Anycubic_i3_Mega_CNC\Marlin-2.1.2.2\Marlin\src\core\boards.h
   #define MOTHERBOARD BOARD_TRIGORILLA_14_CNC
 #else
-  #define MOTHERBOARD BOARD_TRIGORILLA_14
+  #define MOTHERBOARD BOARD_TRIGORILLA_14_CNC
 #endif
 
 // i3 Mega remaps some Trigorilla 1.4 pins

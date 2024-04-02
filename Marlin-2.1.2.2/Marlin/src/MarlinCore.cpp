@@ -1122,7 +1122,7 @@ inline void tmc_standby_setup() {
  *    • Watchdog Timer - Also Kind of Important!
  *    • Closed Loop Controller
  *  - Run Startup Commands, if defined
- *  - Tell host to close Host Promptsc:\Users\christoph.bubeck\Downloads\Marlin-2.1.2.2\Marlin-2.1.2.2\Marlin\src\module\endstops.cpp
+ *  - Tell host to close Host PromptsC:\Users\christoph.bubeck\Documents\GitHub\Anycubic_i3_Mega_CNC\Marlin-2.1.2.2\Marlin\src\module\endstops.cpp
  *  - Test Trinamic driver connections
  *  - Init Prusa MMU2 filament changer
  *  - Init and test BL24Cxx EEPROM

@@ -1099,7 +1099,7 @@ void GcodeSuite::process_parsed_command(const bool no_ok/*=false*/) {
       #endif
 
       #if ENABLED(HAS_MCP3426_ADC)
-        case 3426: M3426(); break;                                // M3426: Read MCP3426 ADC (over i2c)c:\Users\christoph.bubeck\Downloads\Marlin-2.1.2.2\Marlin-2.1.2.2\Marlin\src\gcode\gcode.h
+        case 3426: M3426(); break;                                // M3426: Read MCP3426 ADC (over i2c)C:\Users\christoph.bubeck\Documents\GitHub\Anycubic_i3_Mega_CNC\Marlin-2.1.2.2\Marlin\src\gcode\gcode.h
       #endif
 
       default: parser.unknown_command_warning(); break;

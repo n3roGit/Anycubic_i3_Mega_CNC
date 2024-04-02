@@ -115,7 +115,7 @@
 //#define ANYCUBIC_4_MAX_PRO_ENDSTOPS
 #if ENABLED(ANYCUBIC_4_MAX_PRO_ENDSTOPS)
   #define X_MAX_PIN                           43  // AUX (2)
-  #define Y_STOP_PIN                          19  // Z+c:\Users\christoph.bubeck\Downloads\Marlin-2.1.2.2\Marlin-2.1.2.2\Marlin\src\MarlinCore.cpp
+  #define Y_STOP_PIN                          19  // Z+C:\Users\christoph.bubeck\Documents\GitHub\Anycubic_i3_Mega_CNC\Marlin-2.1.2.2\Marlin\src\MarlinCore.cpp
 #elif ANY(TRIGORILLA_MAPPING_CHIRON, TRIGORILLA_MAPPING_I3MEGA)
   // Chiron uses AUX header for Y and Z endstops
   #define Y_STOP_PIN                          42  // AUX (1)
