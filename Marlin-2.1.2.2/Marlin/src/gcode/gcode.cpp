@@ -71,7 +71,7 @@ GcodeSuite gcode;
 
 #include "../MarlinCore.h" // for idle, kill
 
-void G999();
+//void G999();
 
 // Inactivity shutdown
 millis_t GcodeSuite::previous_move_ms = 0,
