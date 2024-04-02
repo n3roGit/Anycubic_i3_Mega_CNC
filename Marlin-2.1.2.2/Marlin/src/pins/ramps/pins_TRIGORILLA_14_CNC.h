@@ -42,7 +42,7 @@
 // PWM FETS
 //
 //#define MOSFET_B_PIN                          45  // HEATER1
-#define SPINDLE_CONTROL_PIN 45
+//#define SPINDLE_CONTROL_PIN 45
 
 //
 // Heaters / Fans
