@@ -99,7 +99,7 @@
 #define EXP2_02_PIN                           52  // SCK
 #define EXP2_03_PIN                           31  // EN1
 #define EXP2_04_PIN                           53  // SDSS
-//#define EXP2_05_PIN                           33  // EN2 /Filamment Runout / Z TProbe
+//#define EXP2_05_PIN                           33  // EN2 /Filamment Runout / Z Probe
 #define EXP2_06_PIN                           51  // MOSI
 #define EXP2_07_PIN                           49  // SD_DET
 #define EXP2_08_PIN                           41  // KILL
